@@ -1,0 +1,22 @@
+using System;
+
+namespace Tehtävä_4_Valuuttamuunnin
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+           
+
+            Console.WriteLine("VALUUTTAMUUNNIN");
+            Console.WriteLine("---------------");
+            Console.WriteLine();
+            Console.Write("Anna summa euroina?");
+            int luku = int.Parse(Console.ReadLine());
+            Console.WriteLine();
+            int dollari = luku * 1.21;
+            string tekstimuuttuja = string.Format("{0,10:0.00}", lukumuuttuja);
+
+        }
+    }
+}
