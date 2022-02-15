@@ -1,0 +1,38 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Nimesi
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //Henkilön nimi
+            string etunimi, sukunimi;
+
+            //Kysymys henkilölle
+            Console.Write("Anna etunimesi? ");
+            //Henkilö kirjoittaa vastauksen kysymykseen, eli nimensä
+            etunimi = Console.ReadLine();
+
+            //tyhjä rivi
+            Console.WriteLine();
+
+            //Uusi kysymys henkilölle
+            Console.Write("Anna sukunimesi? ");
+            //Henkilö vastaa kysymykseen, eli sukunimesnä
+            sukunimi = Console.ReadLine();
+
+            //Tyhjä rivi
+            Console.WriteLine();
+
+            //Niinsanotusti vastaus henkilölle
+            Console.WriteLine("Etunimesi on " + etunimi);
+            Console.WriteLine("Sukunimesi on " + sukunimi);
+
+        }
+    }
+}
